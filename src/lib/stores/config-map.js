@@ -1,7 +1,8 @@
 import { writable } from 'svelte/store';
+
 export const mapConfig = writable({
   "title": "Who can't afford a one-week holiday abroad?",
-  "subtitle": "Not all Europeans have the means to indulge in a week-long vacation:",
+  "subtitle": "27.5% of Europeans cannot afford to take a holiday abroad. This is particularly true of Romanians (61.4%), Greeks (46.6%) and Bulgarians (39.1%). In contrast, only 10.6% of Luxembourgish citizens are in this situation.",
   "colourSchemeClasses": 6,
   "data": "country,id,value,extraInfo,text_content,link_text,link_url_target,audio_url_1,audio_url_2,audio_url_3,image_url_source,image_url_target,video_url\nBelgium,BE,0.195,false,\"\",,,,,,,,\nBulgaria,BG,0.391,false,\"\",,,,,,,,\nCzechia,CZ,0.190,false,\"\",,,,,,,,\nDenmark,DK,0.141,false,\"\",,,,,,,,\nGermany,DE,0.209,false,\"\",,,,,,,,\nEstonia,EE,0.258,false,\"\",,,,,,,,\nIreland,IE,0.205,false,\"\",,,,,,,,\nGreece,EL,0.466,false,\"\",,,,,,,,\nSpain,ES,0.322,false,\"\",,,,,,,,\nFrance,FR,0.232,false,\"\",,,,,,,,\nCroatia,HR,0.326,false,\"\",,,,,,,,\nItaly,IT,0.357,false,\"\",,,,,,,,\nCyprus,CY,0.276,false,\"\",,,,,,,,\nLatvia,LV,0.289,false,\"\",,,,,,,,\nLithuania,LT,0.309,false,\"\",,,,,,,,\nLuxembourg,LU,0.106,false,\"\",,,,,,,,\nHungary,HU,0.391,false,\"\",,,,,,,,\nMalta,MT,0.276,false,\"\",,,,,,,,\nNetherlands,NL,0.128,false,\"\",,,,,,,,\nAustria,AT,0.178,false,\"\",,,,,,,,\nPoland,PL,0.245,false,\"\",,,,,,,,\nPortugal,PT,0.331,false,\"\",,,,,,,,\nRomania,RO,0.614,false,\"\",,,,,,,,\nSlovenia,SI,0.152,false,\"\",,,,,,,,\nSlovakia,SK,0.291,false,\"\",,,,,,,,\nFinland,FI,0.148,false,\"\",,,,,,,,\nSweden,SE,0.124,false,\"\",,,,,,,,",
   "parsedData": [
@@ -428,7 +429,7 @@ export const mapConfig = writable({
   "textSource": "Eurostat (2026)",
   "textNoteAvailable": true,
   "textNoteDescription": "Note",
-  "textNote": "",
+  "textNote": "Inability to afford paying for one week annual holiday away from home in 2025. This figure is generally decreasing, as they were 33.5% in 2016.",
   "textDataAccessAvailable": true,
   "linkDataAccessDescription": "Access the data",
   "linkDataAccess": "https://ec.europa.eu/eurostat/databrowser/view/ilc_mdes02/default/table?lang=en",
@@ -439,9 +440,9 @@ export const mapConfig = writable({
   "tooltipExtraInfoLabel": "Click here",
   "translate": {
     "title": "Who can't afford a one-week holiday abroad?",
-    "subtitle": "Not all Europeans have the means to indulge in a week-long vacation:",
+    "subtitle": "27.5% of Europeans cannot afford to take a holiday abroad. This is particularly true of Romanians (61.4%), Greeks (46.6%) and Bulgarians (39.1%). In contrast, only 10.6% of Luxembourgish citizens are in this situation.",
     "textNoteDescription": "Note",
-    "textNote": "",
+    "textNote": "Inability to afford paying for one week annual holiday away from home in 2025. This figure is generally decreasing, as they were 33.5% in 2016.",
     "textSourceDescription": "Source",
     "textSource": "Eurostat (2026)",
     "linkDataAccessDescription": "Access the data",
